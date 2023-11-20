@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    /* background-color:#DA74B4; */
+    background-image: linear-gradient(160deg, red 0%, blue 100% );
+    font-family: sans-serif;
+    height: 100vh;
+
+}  
+
+.auth{
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    min-width: 28rem;
+    max-width: 33rem;
+    box-shadow: 3px 3px 3px 4px gold;
+
+}
+
+.auth h1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid silver;
+
+}
+
+.auth form{
+    margin: 2rem;
+}
+
+.auth input{
+    width: 100%;
+    margin-top: 2rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: 0.15rem solid grey;
+    padding-left: 0.5rem;
+    outline: none;
+}
+
+.auth input:hover{
+    border-bottom: 0.2rem solid lightblue;
+    
+}
+
+.auth input::placeholder{
+    color:rgb(163, 163, 163)
+}
+
+.auth form p{
+    font-size: 1.3rem;
+    padding:3rem 0.5rem 0 0;
+    color: grey;
+
+} 
+
+.auth form p:hover{
+    
+    cursor: pointer;
+}
+
+.auth button[type="submit"]{
+    display: block;
+    margin:  2rem auto;
+    font-size: 1.6rem;
+    padding: 0.9rem 2.2rem;
+    border-radius: 1.6rem;
+    width: 90%;
+    border: none;
+    background-color: aquamarine;
+    font-weight: 500;
+    
+
+}
+
+.auth button [type="submit"]:hover{
+    cursor: pointer;
+
+}
+
+.auth .login-message{
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+.auth .login-message span{
+    color: blue;
+    font-weight: 600;
+}
+
+.auth .login-message span:hover{
+    cursor: pointer;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    
+
+}
+footer img:hover{
+    cursor: pointer;
+
+}
