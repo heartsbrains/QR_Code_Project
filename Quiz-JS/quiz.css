@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+
+:root{
+    --box-shadow: rgba(0, 0,0, 0.24) 0px 3px 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family:  "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+body {
+  height: 100%;
+  background-color: wheat;
+  /* display: flex; */
+  /* justify-content: center;
+    align-items: center; */
+}
+
+.quiz {
+    padding: 30px;
+    background-color: blue;
+  border: 2px solid red;
+
+}
+
+.heading {
+    margin: 10px auto 40px auto;
+  
+}
+
+.heading .title{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+
+}
+
+.heading .subtitle{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+    min-width: 350px;
+    margin: 20px auto ;
+    border-radius: 6px;
+    font-size:  20px;
+    background-color: white;
+    box-shadow: ( --box-shadow);
+    max-width: 400px;
+}
+
+.result p:first-child{
+    padding: 10px 20px;
+
+}
+
+.hide{
+    display: none;
+}
+
+.reload button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    border: none;
+}
+
+.reload button:hover{
+    cursor: pointer;
+    background-color: #8104aabe;
+}
+
+.quiz-form{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.question{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    box-shadow: var(--box-shadow);
+
+}
+
+.question > * {
+    font-size: 18px;
+
+}
+
+.option{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.correct{
+    background-color: lightgreen;
+}
+
+.wrong{
+    background-color: lightcoral;
+}
+
+.submit{
+    text-align: center;
+    margin: 30px ;
+}
+.submit input{
+    background-color: #04AA6D;
+    padding: 5px 25px;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    border: 0px;
+}
+
+.submit input:hover{
+    background-color: #8104aabe;
+    cursor:pointer;
+}
