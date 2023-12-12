@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Roboto:wght@500&family=Rufina&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+
+:root{
+    --box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Mandali', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrap{
+    background: linear-gradient(#e66465, #9198e5);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.heading{
+   margin: 10px auto 40px auto;
+
+}
+.hide{
+    display: none;
+}
+.heading .title{
+  font-size: 30px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+
+.heading .subtitle{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.task-manager{
+    min-width: 350px;
+    max-width: 450px;
+    margin: auto;
+
+}
+
+.search-box, .task-box, .message{
+    background-color: white;
+    padding: 20px 25px;
+    border-radius:3px;
+    margin: 20px 0px;
+
+}
+
+.search-box .search{
+    display: flex;
+    margin: 10px 0px;
+
+}
+
+.search-box input{
+    border-radius: 3px;
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.search-box i.reset{
+    font-size: 24px;
+    height: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.task-box .tasks{
+    margin: 10px 0px;
+
+}
+
+.task-box li{
+    background-color: #f2f2f2;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.task-box span{
+    padding: 10px;
+
+}
+.task-box i.delete{
+        color: white;
+        background-color: #D82148;
+        border-radius: 0px 2px 2px 0px;
+        height: 100%;
+        padding: 10px;
+        cursor: pointer;
+}
+
+.task-box .add{
+    display: flex;
+    margin: 30px 0px 10px 0px;
+
+}
+
+.task-box input[type="text"]{
+    border-radius: 3px;
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+
+}
+
+.task-box input[type="submit"]{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+ background-color: #65C165;
+ border-radius: 6px;
+
+}
+
+.message{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.message span{
+    margin-top: 7px;
+}
+
+.message .clear{
+   border: 0px;
+   background-color: #11468F;
+   color: white;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 16px;
+   border-radius: 3px;
+
+}
