@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="budget-tracker.css" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <div class="outer-wrap">
+        <section class="heading">
+          <p class="title">NotNotion</p>
+          <p class="subtitle">Easiest way to track your transaction</p>
+        </section>
+        <section class="transaction-control">
+          <div class="actions">
+            <h3>Add Transactions</h3>
+            <form class="add">
+              <input
+                type="text"
+                name="source"
+                placeholder="Source"
+                autocomplete="off"
+              />
+              <input
+                type="number"
+                name="amount"
+                placeholder="Amount"
+                autocomplete="off"
+              />
+              <input type="submit" value="Add Transactions" />
+            </form>
+          </div>
+          <div class="stats">
+            <h3>Statistics</h3>
+            <!-- <input
+              type="text"
+              name="source"
+              placeholder="Source"
+              autocomplete="off"
+            /> -->
+            <p class="balance">Balance: $<span id="balance"></span></p>
+            <p class="income">Income: $<span id="income"></span></p>
+            <p class="expense">Expense: $<span id="expense"></span></p>
+          </div>
+        </section>
+        <section class="transaction-history">
+          <h3>Transaction History</h3>
+          <div class="records">
+            <div class="income">
+              <h3>Income</h3>
+              <ul class="income-list">
+                
+              </ul>
+            </div>
+            <div class="expense">
+              <h3>Expense</h3>
+              <ul class="expense-list">
+                  
+              </ul>
+            </div>
+          </div>
+         
+        </section>
+      </div>
+    </main>
+
+    <script src="budget-tracker.js"></script>
+  </body>
+</html>
